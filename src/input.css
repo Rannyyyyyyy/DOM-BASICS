@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+h1{ 
+    @apply text-center font-bold text-4xl p-10
+}
+h2{
+ @apply bg-[#9B5DE0] mx-3 pl-50 px-2 py-5 rounded-2xl text-[20px] md:text-[30px] mr-180
+}
+.h2{
+     @apply bg-[#9B5DE0] mx-3 pl-50 px-2 py-5 rounded-2xl text-[20px] md:text-[30px] ml-180 
+}
