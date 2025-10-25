@@ -1,11 +1,64 @@
 @import "tailwindcss";
 
-h1{ 
-    @apply text-center font-bold text-4xl p-10
+.body {
+  @apply bg-[#898AC4] flex flex-col items-center p-6;
 }
-h2{
- @apply bg-[#9B5DE0] mx-3 pl-50 px-2 py-5 rounded-2xl text-[20px] md:text-[30px] mr-180
+
+.cart-title {
+  @apply text-3xl font-bold mb-6 bg-[#B7A3E3] px-10 py-2 rounded-3xl text-center border-4 border-solid border-black;
 }
-.h2{
-     @apply bg-[#9B5DE0] mx-3 pl-50 px-2 py-5 rounded-2xl text-[20px] md:text-[30px] ml-180 
+
+.main-container {
+  @apply grid grid-cols-2 gap-6 w-full max-w-6xl;
+}
+
+.one {
+  @apply bg-[#ccf5ce] rounded-2xl shadow-md p-5 border-4 border-solid border-black duration-100;
+}
+
+.products-title {
+  @apply text-2xl font-semibold text-center mb-4 text-white;
+}
+
+.products-list {
+  @apply flex flex-col gap-2;
+}
+
+.product-card {
+  @apply bg-white text-black px-4 py-2 rounded-xl shadow-sm border border-gray-300 hover:bg-[#13d4ec] transition;
+}
+
+.cart-section-title {
+  @apply text-2xl font-semibold text-center mb-4;
+}
+
+.empty {
+  @apply text-center italic;
+}
+.products-title {
+  @apply text-3xl font-bold text-center mb-4 bg-[#B1B3FF] rounded-2xl text-black py-2;
+}
+
+.products-list {
+  @apply grid grid-cols-3 gap-3;
+}
+
+.product-card {
+  @apply bg-[#ccf5ce] p-3 rounded-xl shadow-sm text-center 
+  transition-transform hover:scale-105 
+  cursor-pointer border-2 border-solid border-black
+  hover:border-white hover:font-semibold;
+}
+
+.cart-container {
+  @apply bg-[#ccf5ce] rounded-2xl shadow-md p-5 border-4 border-solid border-black text-white;
+}
+
+
+.cart-section-title {
+  @apply text-3xl font-bold mb-4 text-center bg-[#B1B3FF] rounded-2xl py-2 text-[#000];
+}
+
+.empty {
+  @apply text-center text-black;
 }

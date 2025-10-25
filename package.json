@@ -3,5 +3,23 @@
     "@tailwindcss/cli": "^4.1.15",
     "tailwind": "^4.0.0",
     "tailwindcss": "^4.1.15"
-  }
+  },
+  "name": "dom-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elizabethhhhhhhhh/DOM-BASICS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elizabethhhhhhhhh/DOM-BASICS/issues"
+  },
+  "homepage": "https://github.com/Elizabethhhhhhhhh/DOM-BASICS#readme"
 }
