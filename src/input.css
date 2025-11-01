@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+.body {
+  @apply bg-[#898AC4] flex flex-col items-center p-6;
+}
+
+.cart-title {
+  @apply text-3xl font-bold mb-6 bg-[#B7A3E3] px-10 py-2 rounded-3xl text-center border-4 border-solid border-black;
+}
+
+.main-container {
+  @apply grid grid-cols-2 gap-6 w-full max-w-6xl;
+}
+
+.one {
+  @apply bg-[#ccf5ce] rounded-2xl shadow-md p-5 border-4 border-solid border-black duration-100;
+}
+
+.products-title {
+  @apply text-3xl font-bold text-center mb-4 bg-[#B1B3FF] rounded-2xl text-black py-2;
+}
+
+.products-list {
+  @apply grid grid-cols-3 gap-3;
+}
+
+.product-card {
+  @apply bg-[#ccf5ce] p-3 rounded-xl shadow-sm text-center 
+  transition-transform hover:scale-105 
+  cursor-pointer border-2 border-solid border-black
+  hover:border-white hover:font-semibold;
+}
+
+.cart-container {
+  @apply bg-[#ccf5ce] rounded-2xl shadow-md p-5 border-4 border-solid border-black text-white;
+}
+
+.cart-section-title {
+  @apply text-3xl font-bold mb-4 text-center bg-[#B1B3FF] rounded-2xl py-2 text-[#000];
+}
+
+.empty {
+  @apply text-center text-black;
+}
